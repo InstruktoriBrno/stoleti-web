@@ -1,0 +1,434 @@
+@charset "utf-8";
+/* CSS Document */
+
+#uvodni {
+	font: 100% Arial, sans-serif;
+        background-color: #FFFFFF;
+}
+
+#otazky {
+	margin-left: 20px;
+}
+
+#Document {
+	font: 100% Arial, sans-serify;
+	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	padding: 0;
+	text-align: left; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+	color: #a74e24;
+	background-color: #FFFFFF;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: 0;
+	border-right-style: 0;
+	border-bottom-style: 0;
+	border-left-style: 0;
+        text-decoration: none;
+	width: 1015px;
+}
+#odsazeni {
+	height: 50px;
+	width: 100px;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+
+
+
+#headersvetlo {
+	background-image: url(svetlo.jpg);
+	height: 241px;
+	width: 1152px;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+#headerdoprava {
+	background-image: url(doprava.jpg);
+	height: 241px;
+	width: 1152px;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+#headertelefon {
+	background-image: url(telefon.jpg);
+	height: 241px;
+	width: 1152px;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+#preamble {
+        float: left;
+	background-image:url(menu.jpg);
+	background-color: #302A25;
+	height: 623px;
+	width: 201px;
+	margin: 0px;
+	padding: 0px;
+	background-repeat: no-repeat;
+	background-position: left;
+}
+
+#norm {
+	
+	width: 1280px;
+	min-height: 623px;
+	height: 623px;
+	margin:0;
+	padding:0;
+}
+
+#container {
+	width: 1015px;
+	background: #FFFFFF; /* the auto margins (in conjunction with a width) center the page */
+	background-color: #302A25;
+	border: 0px;
+	text-align: left; /* this overrides the text-align: center on the body element. */
+	margin: 0px;
+	padding: 0px;
+	background-image: url(graphics/Sidebar_Edge.html);
+	background-repeat: repeat-y;
+	background-position: right top;
+}
+
+#main {
+	float: left;
+	width: 951px;
+	min-height: 623px;
+	height: 623px;
+	margin:0;
+	padding:0;
+	background-image:url(zaklad.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+div[id] #main {
+	height: auto;
+}
+#main-content {
+	margin:0;
+	padding: 0.5em 70px 0.5em 70px;
+	font-size: 17px;
+	font-family: Arial, sans-serif;
+	color: #a74e24;
+	font-style: normal;
+	font-variant: normal;
+	letter-spacing: normal;
+	word-spacing: normal;
+        text-decoration: none;
+}
+.card-left, .card-right {
+	float: left;
+	width: 250px;
+	margin: 0 10px 10px 0;
+	padding: 5px 0;
+	text-align: center;
+	font-size: 75%;
+	background-color: #3A332C;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-right-color: #312B24;
+	border-bottom-color: #312B24;
+}
+.card-right {
+	float: right;
+	margin: 0 0 10px 10px;
+}
+#main-content img {
+	background-color: #302A25;
+	border-top-color: #302A25;
+	border-right-color: #302A25;
+	border-bottom-color: #302A25;
+	border-left-color: #302A25;
+	margin: 0 15px 20px 10px;
+}
+#Document #container #sidebar #sidebar-content a:visited {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+#Document #container #sidebar #sidebar-content a:link {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+#main-content h2 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color:#FFFFFF;
+	font-size:22px;
+	font-style:italic;
+	font-weight:normal;
+	margin-top: 25px;
+	margin-bottom: 7px;
+	padding-bottom: 0px;
+}
+#main-content h3 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-style:italic;
+	font-weight:normal;
+	font-size:17px;
+}
+#main-content p {
+	margin: 0px auto 10px auto;
+}
+#main-content a:link {
+	color:#a74e24;
+}
+.moveUp {
+	top: -60px;
+	position: relative;
+}
+#sidebar {
+	margin:0 0 0 697px;
+	padding:0;
+	min-height: 530px;
+}
+#sidebar-content {
+	margin:0;
+	padding: 0.5em 1em;
+	font-size: 100%;
+}
+#sidebar-content h1 {
+	font-family: "Georgia", "Times New Roman", Times, serif;
+	font-size: 24px;
+	font-style: normal;
+	text-transform: capitalize;
+	color: #FFFFFF;
+	font-weight: lighter;
+	letter-spacing: 2px;
+}
+#ISLogo {
+	background-image:url(graphics/Sidebar_ISSova.html);
+	width: 218px;
+	height: 150px;
+}
+hr.cleaner {
+	clear:both;
+	height:1px;
+	margin: -1px 0 0 0;
+	padding:0;
+	border:none;
+	visibility: hidden;
+}
+#easyTooltip {
+	margin:0 10px 1em 0;
+	width:450px;
+	padding:8px;
+	background:#4F4439;
+	color:#F0EFEE;
+	border:1px solid #D2CDB9;
+	line-height:130%;
+	font-family:Georgia, "Times New Roman", Times, serif;
+}
+#easyTooltip h3 {
+	margin:0 0 .5em 0;
+	text-transform:uppercase;
+}
+#easyTooltip p {
+	margin:0 0 .5em 1em;
+	font-style:italic;
+}
+#easyTooltip img {
+	background:#fff;
+	padding:1px;
+	border:1px solid #e1e1e1;
+	float:left;
+	margin-right:10px;
+}
+#tTipZuzka {
+	display:none;
+}
+#tTipMartule {
+	display:none;
+}
+#tTipMartin {
+	display:none;
+}
+#tTipKamca {
+	display:none;
+}
+#tTipKaciii {
+	display:none;
+}
+#tTipGustav {
+	display:none;
+}
+#tTipDosik {
+	display:none;
+}
+#footer {
+	clear:both;
+	width: 100%;
+ text-align:left  color:#999999;
+	font-size: 60%;
+}
+#footer a:visited {
+	color:#999999;
+	text-decoration:none
+}
+#footer a:link {
+	color:#999999;
+	text-decoration:none
+}
+#tym-heads a:visited {
+	color:#999999;
+	text-decoration:none
+}
+#tym-heads a:link {
+	color:#999999;
+	text-decoration:none
+}
+#Document #container #main #main-content .idTabs #tab1 {
+	background-color: #675A50;
+	float: left;
+	height: 500px;
+	width: 500px;
+	border-top-width: thin;
+	border-right-width: thin;
+	border-bottom-width: thin;
+	border-left-width: thin;
+	border-top-color: #8D7C6D;
+	border-right-color: #8D7C6D;
+	border-bottom-color: #8D7C6D;
+	border-left-color: #8D7C6D;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: small;
+}
+#Document #container #main #main-content .idTabs {
+}
+.ss-base-body {
+	font-size:1em;
+}
+.ss-choice-item {
+	margin:0;
+	line-height:1.3em;
+	padding-bottom:.5em
+}
+.ss-form-input {
+	vertical-align:middle;
+	margin-top:0
+}
+.g {
+	color:#666
+}
+.ss-q-title {
+	font-weight:bold;
+	padding:3px;
+	margin:0px -12px;
+	margin-bottom:10px;
+	padding-left:15px; /* původně 15px odsadí název položky stejně s ostatním textem */
+	border-bottom:1px solid #555}
+.ss-form-desc {
+	margin:0;
+	margin-top:15px;
+	color:#fff
+}
+.ss-q-help {
+
+	color:#fff;
+	margin:.1em 0 .25em 0
+}
+.ss-q-long {
+	max-width:90%
+}
+.ss-form-entry {
+	margin-bottom:1.5em
+
+}
+.ss-choices {
+	list-style:none;
+	margin:.5em 0 0 0;
+	padding:0
+}
+.ss-powered-by {
+	color:#666;
+	margin:0.2em;
+	font-size:90%
+}
+.ss-powered-by a:link, .ss-powered-by a:visited {
+	color:#666
+}
+.ss-required-asterisk {
+	color:#c43b1d
+}
+label {
+	display:block;
+	color:#ffffff;
+}
+ul label {
+	display:inline;
+	color:#4f4f4f
+}
+.ss-response-cell {
+	background-color:#fff;
+	border:1px solid #ccc;
+	padding:.1em .5em
+}
+.ss-responses-header {
+	background-color:#969696;
+	color:#fff;
+	padding:.2em .5em
+}
+.ss-form-container {
+}
+.ss-old-form-response {
+	background-color:#ffff3d;
+	font-weight:bold
+}
+.ss-scalerow {
+	text-align:center;
+	font-size: .9em;
+	color:#666;
+	/*border:1px solid #d3d8d3;*/
+	border-left:0;
+	border-right:0;
+	padding:.0em .25em .5em .25em;
+	color:#fff
+}
+.ss-leftlabel {
+	text-align:right;
+	padding-left:0
+}
+.ss-rightlabel {
+	text-align:left;
+	padding-right:0
+}
+.ss-form-title {
+	padding:1em 0;
+	padding-left:15px;
+	border-bottom:1px solid #e6e6e6;
+	color:#4f4f4f;
+	font-weight:normal;
+	margin:-12px
+}
+small a {
+	color:#3b7cef
+}
+body.ss-base-body {
+	background-color:#e8e8e8
+}
+.errorbox-bad {
+	background:transparent;
+	border:none
+}
+.errorbox-bad .ss-q-title {
+	border:2px solid #c43b1d;
+	background-color:#ffe6cc
+}
+h2.ss-section-title {
+	background-color:transparent
+}
+div.ss-submit div.ss-form-entry {
+	background:none;
+	border:none
+}
+
+.ss-scalenumber {
+	font-size:.9em;
+    text-align:center
+}
